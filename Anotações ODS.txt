@@ -18,4 +18,4 @@ Passos a serem feitos:
 
  - Replicar a metodologia de normalização - (MESTRE MATHEUS CUIDARÁ DISTO)
 
- - Verificar viabilidade para estender o horizonte dos dados (ALGUÉM CUIDARÁ DISTO)
+ - Verificar viabilidade para estender o horizonte dos dados (A DEFINIR QUEM CUIDARÁ DISTO)

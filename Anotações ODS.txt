@@ -1,0 +1,21 @@
+A métrica faz uso de 100 indicadores pra acompanhar 17 ODS
+
+- 17 dessas métricas não foram cobertas devido à falta de dados públicos oficiais para elas
+
+- Apenas dois indicadores não foram de dados governamentais: SEEG Municípios e o percentual desflorestado do município calculado a partir do MapBiomas
+
+- Fizeram um processo de normalização e usaram 4 critérios para estabelecer o limite superior (valor-alvo) das métricas
+ 
+- Utilizaram uma ponderação 
+
+
+Passos a serem feitos: 
+ - Relação de fontes dos dados coletados (não ditos no PDF de metodologia)
+	- Verificar com o Matheus se ele tem a relação de fontes
+
+ - Verificar a possibilidade de extração dos dados de maneira direta via Datalake ou API
+ 	- Em caso de impossibilidade para ambos os casos, verificar viabilidade de scraping
+
+ - Replicar a metodologia de normalização - MATHEUS VAI TOCAR
+
+ - Verificar viabilidade para estender o horizonte dos dados

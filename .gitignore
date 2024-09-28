@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rprofile
+renv/.gitignore
+renv/settings.json

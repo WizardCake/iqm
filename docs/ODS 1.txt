@@ -1,0 +1,28 @@
+INDICADORES
+-----------------------
+
+1.1 - Famílias inscritas no Cadastro Único para programas sociais
+Percentual de famílias residentes cadastradas no Cadastro Único com renda familiar per capita de até meio salário mínimo sobre o total de famílias cadastradas. Atualizado anualmente em dezembro.
+
+FONTE: Ministério das Cidades (MDS)
+
+-----------------------
+
+1.2 - Percentual de pessoas inscritas no Cadastro Único que recebem Bolsa Família
+Participação das pessoas que recebem o bolsa família sobre o total de pessoas cadastradas no Cadastro Único. A data de referência para extração do dado é sempre dezembro do ano anterior na Base do CadÚnico.
+
+FONTE: Atlas Brasil
+
+-----------------------
+
+1.3 - Percentual de pessoas abaixo da linha da pobreza no Cadastro Único pós Bolsa Família
+Percentual da população abaixo da linha de pobreza após o Bolsa Família
+
+FONTE: Atlas Brasil/Renda/Programas Sociais
+
+-----------------------
+
+1.4 - Pessoas com renda de até 1/4 do salário mínimo
+Percentual da população residente com 10 anos ou mais, com renda de até 1/4 do salára mínimo
+
+FONTE: Atlas Brasil

@@ -1,0 +1,18 @@
+Renda per capita mensal acima de meio salário mínimo:
+Considera famílias acima do perfil de baixa renda, ou seja, com renda familiar per capita mensal maior que meio salário-mínimo, o que corresponde aos seguintes valores em cada ano:
+2012: R$ 311,00
+2013: R$ 339,00
+2013: R$ 362,00
+2014: R$ 394,00
+2015: R$ 339,00
+2016: R$ 440,00
+2017: R$ 468,50
+2018: R$ 477,00
+2019: R$ 499,00
+2020: R$ 522,50
+2021: R$ 550,00
+2022: R$ 606,00
+2023 (janeiro a abril): R$ 651,00
+2023 (a partir de maio): R$ 660,00
+2024 (a partir de janeiro): R$ 706,00
+

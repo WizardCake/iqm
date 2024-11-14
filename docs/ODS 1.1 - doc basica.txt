@@ -9,14 +9,12 @@ Pobreza - PO) - renda entre a linha da pobreza até a linha administrativa do PB
 Baixa Renda - BRAB - renda entre a linha admniistrativa do PBF e 1/2 SL (Por exemplo, em 2012, entre 140 < renda <= 311 reais)
 Baixa Renda com mais de 1/2 SL - BRAC - renda acima de 1/2 SL (Por exemplo, em 2012, seria renda > 311 reais)
 
-Portanto, CadUnico total: CT = EP + PO + BRAB + BRAC
-
 A partir de março de 2023
 Pobreza - PO) - renda abaixo da linha administrativa do PBF 
 Baixa Renda - BRAB - renda entre a linha admniistrativa do PBF e 1/2 SL 
 Baixa Renda com mais de 1/2 SL - BRAC - renda acima de 1/2 SL
 
-Portanto, CadUnico total: CT = PO + BRAB + BRAC
+CadUnico total: CT = PO + BRAB + BRAC
 
 
 ---------------------------------------
@@ -86,4 +84,4 @@ Considera famílias acima do perfil de baixa renda, ou seja, com renda familiar 
 2023 (a partir de maio): R$ 660,00
 2024 (a partir de janeiro): R$ 706,00
 
-https://dados.gov.br/dados/conjuntos-dados/pessoas-inscritas-no-cadastro-unico-por-faixa-de-renda-per-capita
+https://dados.gov.br/dados/conjuntos-dados/familias-inscritas-no-cadastro-unico-por-faixa-de-renda-per-capita

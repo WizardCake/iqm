@@ -1,3 +1,73 @@
+RESUMO
+O CadÚnico extraído é um instrumento para identificação de famílias de baixa renda. Sua catalogação segue faixas discricionários definidas em lei, sendo, portanto, não uniformes. Para mais informações, segue abaixo a descrição do portal de dados abertos, que define, as faixas. Para estabelecermos o percentual de famílias residentes e do CadÚnico com renda familiar até meio salário mínimo sobre o total de famílias cadastradas, é necessário entendermos como estas faixas funcionam.
+
+Há apenas uma mudança relevante das faixas que impacta o tratamento dos dados: A Lei Federal N° 14.601/2023, que institui o novo programa do bolsa família (PBF), elimina a faixa da extrema pobreza, juntando-a com a faixa da pobreza. Então, até fevereiro de 2023, o CadÚnico tinha 4 faixas: Extrema pobreza (EP), pobreza (PO), baixa renda (BR_abaixo) e baixa renda com mais de 1/2 Salário Mínimo (BR_acima). Essas faixas são referentes a renda per capita familiar mensal (soma-se todas as rendas da família no mês de referência e divide pelo número de pessoas que compõem a família). Portanto, a partir deste ponto, nos referimos a este indicador quando falamos de "renda". Segue abaixo a definição das faixas:
+
+Até fevereiro de 2023:
+Extrema pobreza - EP - renda de até 1/2 da linha administrativa do Programa Bolsa Família (PBF) (Por exemplo: até 2014, renda < 70 reais)
+Pobreza - PO) - renda entre a linha da pobreza até a linha administrativa do PBF (Por exemplo: até 2014, <= 70 <= 140 reais)
+Baixa Renda - BRAB - renda entre a linha admniistrativa do PBF e 1/2 SL (Por exemplo, em 2012, entre 140 < renda <= 311 reais)
+Baixa Renda com mais de 1/2 SL - BRAC - renda acima de 1/2 SL (Por exemplo, em 2012, seria renda > 311 reais)
+
+Portanto, CadUnico total: CT = EP + PO + BRAB + BRAC
+
+A partir de março de 2023
+Pobreza - PO) - renda abaixo da linha administrativa do PBF 
+Baixa Renda - BRAB - renda entre a linha admniistrativa do PBF e 1/2 SL 
+Baixa Renda com mais de 1/2 SL - BRAC - renda acima de 1/2 SL
+
+Portanto, CadUnico total: CT = PO + BRAB + BRAC
+
+
+---------------------------------------
+DESCRIÇÃO DO PORTAL DE DADOS ABERTOS
+
+O Cadastro Único é um instrumento que identifica e caracteriza as famílias de baixa renda, permitindo que o governo conheça melhor a realidade socioeconômica dessa população.
+
+Este conjunto de dados apresenta a quantidade de pessoas por faixa de renda inscritas no Cadastro Único por município e ano/mês de referência.
+
+Neste conjunto de dados temos as seguintes variáveis:
+
+codigo_ibge: código ibge do município.
+anomes: Ano/mês de referência do dado.
+qtd_pes_ext_pob*: Quantidade de pessoas inscritas no Cadastro Único em famílias em situação de extrema pobreza, segundo a faixa do Programa Bolsa Família
+qtd_pes_pob: Quantidade de pessoas inscritas no Cadastro Único em famílias em situação de pobreza, segundo a faixa do Programa Bolsa Família
+qtd_pes_baixa_renda: Quantidade de pessoas inscritas no Cadastro Único em famílias de baixa renda
+qtd_fam_acima_meio_sm: Quantidade de pessoas inscritas no Cadastro Único em famílias com renda per capita mensal acima de meio salário mínimo
+*Faixa disponível até fevereiro/2023
+
+Extrema Pobreza:
+Considera famílias com renda familiar per capita mensal até a metade da linha administrativa de elegibilidade ao Programa Bolsa Família.
+
+Histórico:
+-Até abril de 2014: renda familiar per capita mensal até 70 reais
+-De maio de 2014 a junho de 2016: renda familiar per capita mensal até 77 reais
+-De julho de 2016 a maio de 2018: renda familiar per capita mensal até 85 reais
+-De junho de 2018 a outubro de 2021: renda familiar per capita mensal até 89 reais
+-Novembro de 2021: renda familiar per capita mensal até 100 reais
+-De dezembro de 2021 a fevereiro de 2023: renda familiar per capita mensal até 105 reais
+-De março de 2023 em diante*: renda familiar per capita mensal até 218 reais
+
+*A Lei Nº 14.604 do Novo Bolsa Família define apenas a faixa de pobreza, logo a partir de março de 2023 em diante não constará nos recursos de dados a faixa de extrema pobreza.
+
+Pobreza:
+Até fevereiro/2023 considera famílias com renda familiar per capita mensal superior a renda familiar per capita da pobreza até a linha administrativa de elegibilidade ao Programa Bolsa Família. A partir de março de 2023, considera-se todas as famílias abaixo da linha administrativa de elegibilidade do Programa Bolsa Família.
+
+Histórico:
+-Até abril de 2014: renda familiar per capita mensal entre 70 e 140 reais
+-De maio de 2014 a junho de 2016: renda familiar per capita mensal entre 77 e 154 reais
+-De julho de 2016 a maio de 2018: renda familiar per capita mensal entre 85 e 170 reais
+-De junho de 2018 a outubro de 2021: renda familiar per capita mensal entre 89 e 178 reais
+-Novembro de 2021: renda familiar per capita mensal entre 100 e 200 reais
+-De dezembro de 2021 a fevereiro de 2023: renda familiar per capita mensal entre 105 e 210 reais
+-De março de 2023 em diante: renda familiar per capita mensal até 218 reais
+
+Baixa renda:
+Considera famílias com renda per capita mensal acima da linha de elegibilidade do Programa Bolsa Família até meio salário-mínimo, linha que estabelece o público-alvo do Cadastro Único, conforme definição de baixa renda contida no Decreto nº 11.016, de 29 de março de 2022.
+
+Histórico:
+-Até abril de 2014: renda familiar per capita mensal acima de 140 reais até meio salário-mínimo -De maio de 2014 a junho de 2016: renda familiar per capita mensal acima de 154 reais até meio salário-mínimo -De julho de 2016 a maio de 2018: renda familiar per capita mensal acima de 170 reais até meio salário-mínimo -De junho de 2018 a outubro de 2021: renda familiar per capita mensal acima de 178 reais até meio salário-mínimo -Novembro de 2021: renda familiar per capita mensal acima de 200 reais até meio salário-mínimo -De dezembro de 2021 a fevereiro de 2023: renda familiar per capita mensal acima de 210 reais até meio salário-mínimo -De março de 2023 em diante: renda familiar per capita mensal acima de 218 reais até meio salário-mínimo
+
 Renda per capita mensal acima de meio salário mínimo:
 Considera famílias acima do perfil de baixa renda, ou seja, com renda familiar per capita mensal maior que meio salário-mínimo, o que corresponde aos seguintes valores em cada ano:
 2012: R$ 311,00
@@ -16,3 +86,4 @@ Considera famílias acima do perfil de baixa renda, ou seja, com renda familiar 
 2023 (a partir de maio): R$ 660,00
 2024 (a partir de janeiro): R$ 706,00
 
+https://dados.gov.br/dados/conjuntos-dados/pessoas-inscritas-no-cadastro-unico-por-faixa-de-renda-per-capita

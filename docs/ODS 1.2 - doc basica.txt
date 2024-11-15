@@ -1,0 +1,50 @@
+RESUMO
+O CadÚnico extraído é um instrumento para identificação de famílias de baixa renda. Sua catalogação segue faixas discricionários definidas em lei, sendo, portanto, não uniformes. Para mais informações, segue abaixo a descrição do portal de dados abertos, que define, as faixas. Para estabelecermos o percentual de famílias residentes e do CadÚnico com renda familiar até meio salário mínimo sobre o total de famílias cadastradas, é necessário entendermos como estas faixas funcionam.
+
+Há apenas uma mudança relevante das faixas que impacta o tratamento dos dados: A Lei Federal N° 14.601/2023, que institui o novo programa do bolsa família (PBF), elimina a faixa da extrema pobreza, juntando-a com a faixa da pobreza. Então, até fevereiro de 2023, o CadÚnico tinha 4 faixas: Extrema pobreza (EP), pobreza (PO), baixa renda (BR_abaixo) e baixa renda com mais de 1/2 Salário Mínimo (BR_acima). Essas faixas são referentes a renda per capita familiar mensal (soma-se todas as rendas da família no mês de referência e divide pelo número de pessoas que compõem a família). Portanto, a partir deste ponto, nos referimos a este indicador quando falamos de "renda". Segue abaixo a definição das faixas:
+
+Ambos os dados no dados.gov.br foram extraídos do VIS DATA (https://aplicacoes.cidadania.gov.br/vis/data3/data-explorer.php)
+
+Links:
+
+https://dados.gov.br/dados/conjuntos-dados/bolsa-familia
+https://dados.gov.br/dados/conjuntos-dados/familias-inscritas-no-cadastro-unico
+
+------------------------------------
+DESCRIÇÃO DO PORTAL DE DADOS ABERTOS
+------------------------------------
+
+BOLSA FAMÍLIA
+O Bolsa Família é um programa de transferência direta de renda, direcionado às famílias em situação de pobreza e de extrema pobreza em todo o País, de modo que consigam superar a situação de vulnerabilidade e pobreza. Tem como principal objetivo combater a fome, a pobreza e promover a segurança alimentar e nutricional, retirando as famílias da vulnerabilidade socieconômica por meio da transferência de renda; Além disso, através das condicionalidades, reforçar o acesso aos direitos básicos e aos serviços de saúde, educação, segurança alimentar a assistência social.
+
+Nesse conjunto de dados temos as seguintes variáveis:
+A partir de março de 2023:
+
+ibge: código ibge do município
+anomes: ano e mês de referência
+qtd_familias_beneficiarias_bolsa_familia_s: Quantidade de famílias beneficiárias do Programa Bolsa Família
+valor_repassado_bolsa_familia_s: Valor repassado para pagamento de benefícios do Programa Bolsa Família
+pbf_vlr_medio_benef_f: Valor médio dos benefícios pagos do Programa Bolsa Família
+De 2004 a 2021:
+
+ibge: código ibge do município
+anomes: ano e mês de referência
+qtd_familias_beneficiarias_bolsa_familia: Quantidade de famílias beneficiárias do Programa Bolsa Família
+valor_repassado_bolsa_familia: Valor repassado para pagamento de benefícios do Programa Bolsa Família
+Esse conjunto de dados informa a quantidade de famílias beneficiárias e o valor repassado através da folha de pagamento do Bolsa Família, assim como o município e ano/mês de referência.
+
+Para saber mais informações sobre os dados do programa no período de Nov/2021 a Fev/2023, consulte os indicadores do Programa Auxílio Brasil (PAB), clique no link: https://dados.gov.br/dados/conjuntos-dados/auxlio-brasil---mi-social
+
+Painel de Análise dos Dados: https://aplicacoes.mds.gov.br/sagi-paineis/analise_dados_abertos/
+
+--------
+CADUNICO 
+O Cadastro Único é um instrumento que identifica e caracteriza as famílias de baixa renda, permitindo que o governo conheça melhor a realidade socioeconômica dessa população.
+
+Este conjunto de dados apresenta a quantidade de famílias inscritas no Cadastro Único por município e ano/mês de referência.
+
+Neste conjunto de dados temos as seguintes variáveis:
+
+codigo_ibge: código ibge do município.
+anomes: Ano/mês de referência do dado.
+cadun_qtd_familias_cadastradas_i: Quantidade total de famílias inscritas no Cadastro Único.
